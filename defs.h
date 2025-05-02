@@ -2435,6 +2435,7 @@ struct size_table {         /* stash of commonly-used sizes */
 	long prb_desc;
 	long wait_queue_entry;
 	long task_struct_state;
+	long task_struct_exit_state;
 	long printk_safe_seq_buf_buffer;
 	long sbitmap_word;
 	long sbitmap;
